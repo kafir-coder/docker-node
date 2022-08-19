@@ -1,0 +1,12 @@
+{
+  "name": "docker-node",
+  "version": "0.0.1",
+  "description": "A simple example showing an example of a multi-stage Node.js dockerfile",
+  "main": "index.js",
+  "repository": "git@github.com:kafir-coder/docker-node.git",
+  "author": "Caio Tony <caiotony16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
