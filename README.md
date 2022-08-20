@@ -1,2 +1,2 @@
 # docker-node
-A simple example showing an example of a multi-stage Node.js dockerfile
+A simple example showing how to write a multi-stage Node.js dockerfile
