@@ -1,4 +1,4 @@
-#
+# syntax=docker/dockerfile:1
 # ---- Base Node ----
 FROM alpine:3.5 AS base
 # install node
@@ -37,6 +37,5 @@ COPY --from=dependencies /root/chat/prod_node_modules ./node_modules
 COPY . .
 # expose port and define CMD
 
-ENV PORT=8080
 EXPOSE 5000
 CMD npm run start
